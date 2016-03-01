@@ -1,8 +1,8 @@
 FROM alpine:3.2
 MAINTAINER Calvin Leung Huang <https://github.com/cleung2010>
 
-ENV NOMAD_VERSION 0.2.3
-ENV NOMAD_SHA256 0f3a7083d160893a291b5f8b4359683c2df7991fa0a3e969f8785ddb40332a8c
+ENV NOMAD_VERSION 0.3.0
+ENV NOMAD_SHA256 530e5177cecd65d36102953099db19ecdbfa62b3acf20a0c48e20753a597f28e
 
 RUN apk --update add curl ca-certificates
 
